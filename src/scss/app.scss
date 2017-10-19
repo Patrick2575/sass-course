@@ -1,0 +1,16 @@
+$primary-color: rgb(62, 191, 235);
+$success-color: rgb(12, 214, 184);
+$white-color: #fff;
+
+.bg-primary{
+    background-color: $primary-color;
+}
+
+.bg-success
+{
+    background-color: $success-color;
+}
+
+.text-white{
+    color: $white-color;
+}

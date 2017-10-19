@@ -4,7 +4,10 @@
   "description": "course to learn  Saas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "build:w": "webpack --watch",
+    "build:prod": "webpack -p",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -18,9 +21,12 @@
   },
   "homepage": "https://github.com/Patrick2575/sass-course#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.7",
+    "html-loader": "^0.5.1",
     "html-webpack-plugin": "^2.30.1",
     "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
     "webpack": "^3.7.0",
     "webpack-dev-server": "^2.9.1"
